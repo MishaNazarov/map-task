@@ -1,0 +1,31 @@
+.list-group{
+  .list-group-item{
+    position: relative;
+    overflow: hidden;
+    min-height: 40px;
+    max-height: 100px;
+    line-height: 40px;
+    font-family: Roboto, Arial, sans-serif;
+    font-size: 18px;
+    box-shadow: rgba(0, 0, 0, 0.3) 0 1px 4px -1px;
+    font-weight: 500;
+    max-width: 100%;
+    margin: 10px 0;
+    padding: 0 40px 0 10px;
+    background-color: white;
+    .address-item{
+      text-overflow: ellipsis;
+      overflow: hidden;
+    }
+    .remove-btn{
+      position: absolute;
+      transform: rotate(45deg);
+      cursor: pointer;
+      right: 11px;
+      top: 11px;
+    }
+  }
+  .list-group-item:hover{
+    box-shadow: rgba(0, 0, 0, 0.3) 0 2px 5px -1px;
+  }
+}

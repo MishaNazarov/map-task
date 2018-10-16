@@ -1,0 +1,40 @@
+html, body {
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+p {
+  margin-block-start: 0;
+  margin-block-end: 0;
+}
+input:focus,
+select:focus,
+textarea:focus,
+button:focus {
+  outline: none;
+}
+.app-wrapper{
+  display: flex;
+  height: 100%;
+}
+.contols{
+  box-shadow: rgba(0, 0, 0, 0.05) 4px 1px 4px -1px;
+  padding: 30px;
+  z-index: 1;
+}
+#root, .app{
+  width: 100%;
+  height: 100%;
+}
+.map-wrapper{
+  width: 100%;
+  min-width: 300px;
+  height: 100%;
+
+}
